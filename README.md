@@ -22,7 +22,7 @@ You can view the changelogs for the plugin you're running in the thread created 
 
 ## Key Features
 
-- Pick an element to play as, choose how you want to play.
+- Pick an style to play as, choose how you want to play.
     - Subelements are also made available. For example: Bloodbending and Icebending for Waterbenders, Metal and Lavabending for Earth, and so on.
 - Battle others with your Bending
     - Chain abilities together to perform unique Combo abilities.
@@ -30,7 +30,7 @@ You can view the changelogs for the plugin you're running in the thread created 
 - Highly Configurable so you can control every aspect of your Avatar Universe.
 - Modular Abilities
     - The plugin comes with over 40 abilities pre-installed and passive abilities. Each of them can be enabled or disabled in the config file. Additionally, the ProjectKorra API allows developers to hook into the API to create new abilities and place them in the Abilities folder, making for easy installation of new abilities.
-- Custom Chat Formatting / Colors based on your element.
+- Custom Chat Formatting / Colors based on your style.
 
 ## API
 
@@ -46,7 +46,7 @@ An extensive list of the available commands and permissions can be found on the 
 
 ## Bending
 
-Players may choose any of the disciplines below and play. Each discipline has its own page dedicated to it, below is just a brief summary of what each element is capable of doing.
+Players may choose any of the disciplines below and play. Each discipline has its own page dedicated to it, below is just a brief summary of what each style is capable of doing.
 
 ### [Airbending](https://github.com/ProjectKorra/ProjectKorra/wiki/Airbending)
 
@@ -85,7 +85,7 @@ Players may choose any of the disciplines below and play. Each discipline has it
 ### [Chiblocking](https://github.com/ProjectKorra/ProjectKorra/wiki/Chiblocking)
 
 - Specializes in bare handed combat.
-- Can block a user's chi, temporarily disabling their bending.
+- Can block a user's chi, temporarily disabling their jutsu.
 - Takes less fall damage, jump higher, and run faster.
 - Strikes deal more damage than normal.
 - Not very good when it comes to defense.

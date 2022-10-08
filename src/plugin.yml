@@ -8,257 +8,257 @@ commands:
   jutsu:
     usage: /<command>
 permissions:
-  bending.admin:
+  jutsu.admin:
     default: op
     description: Grants access to all commands and abilities.
     children:
-      bending.player: true
-      bending.command.reload: true
-      bending.admin.permaremove: true
-      bending.command.add.others: true
-      bending.command.add: true
-      bending.command.rechoose: true
-      bending.admin.choose: true
-      bending.command.choose.ignorecooldown: true
-      bending.ability.AvatarState: true
-      bending.water.bloodbending.anytime: true
-      bending.water.bloodbending: true
-      bending.fire.bluefire: true
-      bending.ability.Flight: true
-      bending.ability.MetalClips.loot: true
-      bending.ability.MetalClips.4clips: true
-      bending.ability.MetalClips.throw: true
-      bending.command.toggle.all: true
-      bending.admin.toggle: true
-      bending.command.invincible: true
-      bending.command.check: true
-      bending.command.preset.bind.assign: true
-      bending.command.preset.bind.external: true
-      bending.command.preset.bind.external.other: true
-      bending.command.copy.assign: true
-      bending.admin.debug: true
-      bending.command.remove: true
-  bending.player:
+      jutsu.player: true
+      jutsu.command.reload: true
+      jutsu.admin.permaremove: true
+      jutsu.command.add.others: true
+      jutsu.command.add: true
+      jutsu.command.rechoose: true
+      jutsu.admin.choose: true
+      jutsu.command.choose.ignorecooldown: true
+      jutsu.ability.AvatarState: true
+      jutsu.water.bloodbending.anytime: true
+      jutsu.water.bloodbending: true
+      jutsu.fire.bluefire: true
+      jutsu.ability.Flight: true
+      jutsu.ability.MetalClips.loot: true
+      jutsu.ability.MetalClips.4clips: true
+      jutsu.ability.MetalClips.throw: true
+      jutsu.command.toggle.all: true
+      jutsu.admin.toggle: true
+      jutsu.command.invincible: true
+      jutsu.command.check: true
+      jutsu.command.preset.bind.assign: true
+      jutsu.command.preset.bind.external: true
+      jutsu.command.preset.bind.external.other: true
+      jutsu.command.copy.assign: true
+      jutsu.admin.debug: true
+      jutsu.command.remove: true
+  jutsu.player:
     default: true
     description: Grants access to most abilities and basic commands.
     children:
-      bending.command.board: true
-      bending.command.bind: true
-      bending.command.display: true
-      bending.command.toggle: true
-      bending.command.copy: true
-      bending.command.choose: true
-      bending.command.version: true
-      bending.command.help: true
-      bending.command.clear: true
-      bending.command.who: true
-      bending.command.preset.list: true
-      bending.command.preset.create.5: true
-      bending.command.preset.create: true
-      bending.command.preset.bind: true
-      bending.command.preset.delete: true
-      bending.air: true
-      bending.water: true
-      bending.earth: true
-      bending.fire: true
-      bending.chi: true
-  bending.air:
+      jutsu.command.board: true
+      jutsu.command.bind: true
+      jutsu.command.display: true
+      jutsu.command.toggle: true
+      jutsu.command.copy: true
+      jutsu.command.choose: true
+      jutsu.command.version: true
+      jutsu.command.help: true
+      jutsu.command.clear: true
+      jutsu.command.who: true
+      jutsu.command.preset.list: true
+      jutsu.command.preset.create.5: true
+      jutsu.command.preset.create: true
+      jutsu.command.preset.bind: true
+      jutsu.command.preset.delete: true
+      jutsu.air: true
+      jutsu.water: true
+      jutsu.earth: true
+      jutsu.fire: true
+      jutsu.chi: true
+  jutsu.air:
     default: true
     description: Grants access to all airbending abilities.
     children:
-      bending.command.add.air: true
-      bending.command.choose.air: true
-      bending.ability.AirBlast: true 
-      bending.ability.AirBurst: true
-      bending.ability.AirScooter: true
-      bending.ability.AirShield: true
-      bending.ability.AirSpout: true
-      bending.ability.AirSuction: true
-      bending.ability.AirSwipe: true
-      bending.ability.Suffocate: true
-      bending.ability.Tornado: true
-      bending.ability.AirCombo: true
-      bending.air.passive: true
-      bending.air.flight: true
-  bending.water:
+      jutsu.command.add.air: true
+      jutsu.command.choose.air: true
+      jutsu.ability.AirBlast: true 
+      jutsu.ability.AirBurst: true
+      jutsu.ability.AirScooter: true
+      jutsu.ability.AirShield: true
+      jutsu.ability.AirSpout: true
+      jutsu.ability.AirSuction: true
+      jutsu.ability.AirSwipe: true
+      jutsu.ability.Suffocate: true
+      jutsu.ability.Tornado: true
+      jutsu.ability.AirCombo: true
+      jutsu.air.passive: true
+      jutsu.air.flight: true
+  jutsu.water:
     default: true
     description: Grants access to most waterbending abilities.
     children:
-      bending.command.add.water: true
-      bending.command.choose.water: true
-      bending.ability.Bloodbending: true
-      bending.ability.HealingWaters: true
-      bending.ability.IceBlast: true
-      bending.ability.IceSpike: true
-      bending.ability.OctopusForm: true
-      bending.ability.PhaseChange: true
-      bending.ability.Surge: true
-      bending.ability.Torrent: true
-      bending.ability.WaterBubble: true
-      bending.ability.WaterManipulation: true
-      bending.ability.WaterSpout: true
-      bending.ability.WaterSpout.Wave: true
-      bending.ability.WaterCombo: true
-      bending.water.plantbending: true
-      bending.message.nightmessage: true
-      bending.water.passive: true
-      bending.water.icebending: true
-      bending.water.healing: true
-      bending.ability.WaterArms: true
-      bending.ability.WaterArms.Pull: true
-      bending.ability.WaterArms.Punch: true
-      bending.ability.WaterArms.Grapple: true
-      bending.ability.WaterArms.Grab: true
-      bending.ability.WaterArms.Freeze: true
-      bending.ability.WaterArms.Spear: true
-      bending.ability.Bottlebending: true
-  bending.earth:
+      jutsu.command.add.water: true
+      jutsu.command.choose.water: true
+      jutsu.ability.Bloodbending: true
+      jutsu.ability.HealingWaters: true
+      jutsu.ability.IceBlast: true
+      jutsu.ability.IceSpike: true
+      jutsu.ability.OctopusForm: true
+      jutsu.ability.PhaseChange: true
+      jutsu.ability.Surge: true
+      jutsu.ability.Torrent: true
+      jutsu.ability.WaterBubble: true
+      jutsu.ability.WaterManipulation: true
+      jutsu.ability.WaterSpout: true
+      jutsu.ability.WaterSpout.Wave: true
+      jutsu.ability.WaterCombo: true
+      jutsu.water.plantbending: true
+      jutsu.message.nightmessage: true
+      jutsu.water.passive: true
+      jutsu.water.icebending: true
+      jutsu.water.healing: true
+      jutsu.ability.WaterArms: true
+      jutsu.ability.WaterArms.Pull: true
+      jutsu.ability.WaterArms.Punch: true
+      jutsu.ability.WaterArms.Grapple: true
+      jutsu.ability.WaterArms.Grab: true
+      jutsu.ability.WaterArms.Freeze: true
+      jutsu.ability.WaterArms.Spear: true
+      jutsu.ability.Bottlebending: true
+  jutsu.earth:
     default: true
     description: Grants access to all Earthbending abilities.
     children:
-      bending.command.add.earth: true
-      bending.command.choose.earth: true
-      bending.ability.Catapult: true
-      bending.ability.Collapse: true
-      bending.ability.EarthArmor: true
-      bending.ability.EarthBlast: true
-      bending.ability.EarthGrab: true
-      bending.ability.EarthTunnel: true
-      bending.ability.RaiseEarth: true
-      bending.ability.Shockwave: true
-      bending.ability.Tremorsense: true
-      bending.ability.Extraction: true
-      bending.ability.MetalClips: true
-      bending.earth.passive: true
-      bending.earth.metalbending: true
-      bending.earth.lavabending: true
-      bending.earth.sandbending: true
-      bending.ability.LavaSurge: true
-      bending.ability.LavaFlow: true
-      bending.ability.EarthSmash: true
-      bending.ability.SandSpout: true
-      bending.ability.EarthCombo: true
-  bending.fire:
+      jutsu.command.add.earth: true
+      jutsu.command.choose.earth: true
+      jutsu.ability.Catapult: true
+      jutsu.ability.Collapse: true
+      jutsu.ability.EarthArmor: true
+      jutsu.ability.EarthBlast: true
+      jutsu.ability.EarthGrab: true
+      jutsu.ability.EarthTunnel: true
+      jutsu.ability.RaiseEarth: true
+      jutsu.ability.Shockwave: true
+      jutsu.ability.Tremorsense: true
+      jutsu.ability.Extraction: true
+      jutsu.ability.MetalClips: true
+      jutsu.earth.passive: true
+      jutsu.earth.metalbending: true
+      jutsu.earth.lavabending: true
+      jutsu.earth.sandbending: true
+      jutsu.ability.LavaSurge: true
+      jutsu.ability.LavaFlow: true
+      jutsu.ability.EarthSmash: true
+      jutsu.ability.SandSpout: true
+      jutsu.ability.EarthCombo: true
+  jutsu.fire:
     default: true
     description: Grants access to all firebending abilities.
     children:
-      bending.command.add.fire: true
-      bending.command.choose.fire: true
-      bending.ability.Blaze: true
-      bending.ability.FireBlast: true
-      bending.ability.FireBurst: true
-      bending.ability.FireJet: true
-      bending.ability.FireShield: true
-      bending.ability.HeatControl: true
-      bending.ability.Illumination: true
-      bending.ability.Lightning: true
-      bending.ability.WallOfFire: true
-      bending.ability.Combustion: true
-      bending.ability.FireManipulation: true
-      bending.ability.FireCombo: true
-      bending.message.daymessage: true
-      bending.fire.passive: true
-      bending.fire.lightningbending: true
-      bending.fire.combustionbending: true
-  bending.chi:
+      jutsu.command.add.fire: true
+      jutsu.command.choose.fire: true
+      jutsu.ability.Blaze: true
+      jutsu.ability.FireBlast: true
+      jutsu.ability.FireBurst: true
+      jutsu.ability.FireJet: true
+      jutsu.ability.FireShield: true
+      jutsu.ability.HeatControl: true
+      jutsu.ability.Illumination: true
+      jutsu.ability.Lightning: true
+      jutsu.ability.WallOfFire: true
+      jutsu.ability.Combustion: true
+      jutsu.ability.FireManipulation: true
+      jutsu.ability.FireCombo: true
+      jutsu.message.daymessage: true
+      jutsu.fire.passive: true
+      jutsu.fire.lightningbending: true
+      jutsu.fire.combustionbending: true
+  jutsu.chi:
     default: true
     description: Grants access to all ChiBlocking abilities.
     children:
-      bending.command.add.chi: true
-      bending.command.choose.chi: true
-      bending.ability.HighJump: true
-      bending.ability.Paralyze: true
-      bending.ability.RapidPunch: true
-      bending.ability.Smokescreen: true
-      bending.ability.WarriorStance: true
-      bending.ability.AcrobatStance: true
-      bending.ability.QuickStrike: true
-      bending.ability.SwiftKick: true
-      bending.ability.ChiCombo: true
-      bending.chi.passive: true
-  bending.avatar:
+      jutsu.command.add.chi: true
+      jutsu.command.choose.chi: true
+      jutsu.ability.HighJump: true
+      jutsu.ability.Paralyze: true
+      jutsu.ability.RapidPunch: true
+      jutsu.ability.Smokescreen: true
+      jutsu.ability.WarriorStance: true
+      jutsu.ability.AcrobatStance: true
+      jutsu.ability.QuickStrike: true
+      jutsu.ability.SwiftKick: true
+      jutsu.ability.ChiCombo: true
+      jutsu.chi.passive: true
+  jutsu.avatar:
     default: false
     description: Grants the Avatar Color.
-  bending.ability.MetalClips.loot:
+  jutsu.ability.MetalClips.loot:
     default: false
     description: Lets a Metalbender loot a player's inventory of its iron.
-  bending.ability.MetalClips.throw:
+  jutsu.ability.MetalClips.throw:
     default: false
     description: Lets a Metalbending throw a controlled entity.
-  bending.ability.AirCombo:
+  jutsu.ability.AirCombo:
     default: false
     description: Grants access to all AirCombos.
     children:
-      bending.ability.AirSweep: true
-      bending.ability.AirStream: true
-      bending.ability.Twister: true
-  bending.ability.Flight:
+      jutsu.ability.AirSweep: true
+      jutsu.ability.AirStream: true
+      jutsu.ability.Twister: true
+  jutsu.ability.Flight:
     default: false
     description: Grants access to Flight sub-abilities.
     children:
-      bending.ability.Flight.Soar: true
-      bending.ability.Flight.Glide: true
-      bending.ability.Flight.Levitate: true
-      bending.ability.Flight.Ending: true
-  bending.ability.WaterCombo:
+      jutsu.ability.Flight.Soar: true
+      jutsu.ability.Flight.Glide: true
+      jutsu.ability.Flight.Levitate: true
+      jutsu.ability.Flight.Ending: true
+  jutsu.ability.WaterCombo:
     default: false
     description: Grants access to all WaterCombos.
     children:
-      bending.ability.IceWave: true
-      bending.ability.IceBullet: true
-      bending.ability.IceBulletLeftClick: true
-      bending.ability.IceBulletRightClick: true
-  bending.ability.EarthCombo:
+      jutsu.ability.IceWave: true
+      jutsu.ability.IceBullet: true
+      jutsu.ability.IceBulletLeftClick: true
+      jutsu.ability.IceBulletRightClick: true
+  jutsu.ability.EarthCombo:
     default: false
     description: Grants access to all EarthCombos.
     children:
-      bending.ability.EarthPillars: true
-      bending.ability.EarthDome: true
-      bending.ability.EarthDomeOthers: true
-  bending.ability.FireCombo:
+      jutsu.ability.EarthPillars: true
+      jutsu.ability.EarthDome: true
+      jutsu.ability.EarthDomeOthers: true
+  jutsu.ability.FireCombo:
     default: false
     description: Grants access to all FireCombos.
     children:
-      bending.ability.FireKick: true
-      bending.ability.FireSpin: true
-      bending.ability.JetBlast: true
-      bending.ability.JetBlaze: true
-      bending.ability.FireWheel: true
-  bending.ability.ChiCombo:
+      jutsu.ability.FireKick: true
+      jutsu.ability.FireSpin: true
+      jutsu.ability.JetBlast: true
+      jutsu.ability.JetBlaze: true
+      jutsu.ability.FireWheel: true
+  jutsu.ability.ChiCombo:
     default: false
     description: Grants access to all ChiCombos.
     children:
-      bending.ability.Immobilize: true
-  bending.air.passive:
+      jutsu.ability.Immobilize: true
+  jutsu.air.passive:
     default:  false
     description: Grants access to all air passives.
     children:
-      bending.ability.AirAgility: true
-      bending.ability.AirSaturation: true
-      bending.ability.GracefulDescent: true
-  bending.chi.passive:
+      jutsu.ability.AirAgility: true
+      jutsu.ability.AirSaturation: true
+      jutsu.ability.GracefulDescent: true
+  jutsu.chi.passive:
     default:  false
     description: Grants access to all chi passives.
     children:
-      bending.ability.Acrobatics: true
-      bending.ability.ChiAgility: true
-      bending.ability.ChiSaturation: true
-  bending.earth.passive:
+      jutsu.ability.Acrobatics: true
+      jutsu.ability.ChiAgility: true
+      jutsu.ability.ChiSaturation: true
+  jutsu.earth.passive:
     default:  false
     description: Grants access to all earth passives.
     children:
-      bending.ability.DensityShift: true
-      bending.ability.SandAgility: true
-  bending.fire.passive:
+      jutsu.ability.DensityShift: true
+      jutsu.ability.SandAgility: true
+  jutsu.fire.passive:
     default:  false
     description: Grants access to all fire passives.
     children:
-  bending.water.passive:
+  jutsu.water.passive:
     default:  false
     description: Grants access to all water passives.
     children:
-      bending.ability.FastSwim: true
-      bending.ability.HydroSink: true
-  bending.donor:
+      jutsu.ability.FastSwim: true
+      jutsu.ability.HydroSink: true
+  jutsu.donor:
     default: false
     description: Grants the Donor tag.
